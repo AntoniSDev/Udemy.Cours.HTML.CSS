@@ -22,9 +22,20 @@ h2
 {
     color: #444;
     font-size: 55px;
+    line-height: 70px;
 }
 
+h4
+{
+    font-size: 24px;
+    color: #444;
+}
 
+p
+{
+    line-height: 20px;
+    color: #777;
+}
 
 ul
 {
@@ -39,7 +50,7 @@ a
 
 .wrapper
 {
-    width: 940px;
+    width: 932px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -113,8 +124,55 @@ header nav ul li a
     border-radius: 5px;
 }
 
+.button-1:hover
+{
+    background: #02b8dd;
+}
+
+/* STEPS */
+
+#steps ul
+{
+    margin: 60px 0;
+}
+
+#steps ul li
+{
+    width: 300px;
+    float: left;    
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+#steps h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p
+{
+
+}
+
+#step-1
+{
+    background: url('images/steps-icon-1.png') no-repeat top center;
+}
+
+#step-2
+{
+    background: url('images/steps-icon-2.png') no-repeat
+    top center;
+}
 
 
+#step-3
+{
+    background: url('images/steps-icon-3.png') no-repeat top center;
+}
 
 
 
